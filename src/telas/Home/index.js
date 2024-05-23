@@ -1,9 +1,10 @@
 import React from "react";
-import Topo from './components/Topo'
+import Topo from './components/Topo';
+import Produtores from "./components/Produtores";
 
 const Home = () => {
     return (
-        <Topo></Topo>
+        <Produtores topo={Topo}/>
     );
 }
 

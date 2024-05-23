@@ -50,11 +50,14 @@ const estilos = StyleSheet.create({
         fontSize: 26,
         lineHeight: 42,
         fontWeight: 'bold',
+        color: '#464646'
     },
     legenda: {
         fontSize: 16,
         lineHeight: 16,
+        color: '#A3A3A3',
     }
 });
+
 
 export default Topo;
